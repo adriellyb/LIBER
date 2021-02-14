@@ -7,7 +7,7 @@
    * [Instalação](#instalação)
       * [Windows](#windows)
       * [Linux](#linux)
-   * [Servindo o projeto](#servindo-projeto)
+   * [Servindo o projeto](#servindo-o-projeto)
    * [Como Testar](#como-testar)
 <!--te-->
 
@@ -16,8 +16,8 @@
 ## Tecnologias
 
 ## Instalação
-  ## Windows
-  ## Linux
+  ### Windows
+  ### Linux
   
 ## Servindo o projeto
 
