@@ -2,7 +2,7 @@
 
 ## Índice
 <!--ts-->
-   * [Informações Gerais](#informacoes-gerais)
+   * [Informações Gerais](#informações-gerais)
    * [Tecnologias](#tecnologias)
    * [Instalação](#instalacao)
       * [Windows](#windows)
