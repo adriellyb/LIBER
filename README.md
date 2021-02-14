@@ -10,3 +10,5 @@
    * [Servindo o projeto](#servindo-projeto)
    * [Como Testar](#testes)
 <!--te-->
+
+## Informações Gerais
