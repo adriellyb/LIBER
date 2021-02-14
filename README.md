@@ -4,11 +4,21 @@
 <!--ts-->
    * [Informações Gerais](#informações-gerais)
    * [Tecnologias](#tecnologias)
-   * [Instalação](#instalacao)
+   * [Instalação](#instalação)
       * [Windows](#windows)
       * [Linux](#linux)
    * [Servindo o projeto](#servindo-projeto)
-   * [Como Testar](#testes)
+   * [Como Testar](#como-testar)
 <!--te-->
 
 ## Informações Gerais
+
+## Tecnologias
+
+## Instalação
+  ## Windows
+  ## Linux
+  
+## Servindo o projeto
+
+## Como testar
