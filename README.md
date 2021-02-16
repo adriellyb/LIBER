@@ -13,10 +13,20 @@
 
 ## Informações Gerais
 
-Esse é o trabalho final do Processo Seletivo interno da EJCM para Tech Lead no qual tínhamos que construir uma CRUD básica com entidades que se relacionam em uma tecnologia que não dominamos. Escolhi fazer uma API usando Ruby on Rails. Esse é um projetinho bem simples que gera fatos aleatórios sobre gatos. As entidades são Owner, Cat, Fact e Address.
+Esta aplicação foi desenvolvida como projeto final do processo seletivo interno da EJCM para o cargo de Tech Lead. O projeto consistia no criação de uma API Restful que contenha CRUD básica para pelo menos duas entidades que se relacionam, além disto esta API deveria consumir uma API
+Pública com autenticação associada a algum método da CRUD.
 
-  ### Relações
-  ### Rotas
+A ideia desta aplicação é um sistema simples de consulta onde o usuário escolhe dia, mês, ano e país para a consulta e o sistema retorna se há (ou não) um feriado no país e na data escolhida. As entidades são User, Date e Holiday.
+
+### Framework utilizada
+- [Laravel](https://laravel.com/docs/8.x)
+
+### API externa utilizada
+- [Calendarific Holiday API](https://calendarific.com/api-documentation)
+
+### Relacionamentos
+
+### Rotas
 
 ## Tecnologias
 
