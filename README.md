@@ -31,8 +31,8 @@ A ideia desta aplicação é um sistema simples de consulta onde o usuário esco
 Date pode ter apenas 1 User</p>
 
 - Date and Holidays: 1-1
-Date pode ter 1 Holiday
-Holiday é associado a 1 Date
+<p>Date pode ter 1 Holiday<br />
+Holiday é associado a 1 Date</p>
 
 ### Rotas
 
