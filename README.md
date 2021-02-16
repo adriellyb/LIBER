@@ -26,6 +26,14 @@ A ideia desta aplicação é um sistema simples de consulta onde o usuário esco
 
 ### Relacionamentos
 
+- User and Date: 1-N
+<p>User pode ter n Dates<br />
+Date pode ter apenas 1 User</p>
+
+- Date and Holidays: 1-1
+Date pode ter 1 Holiday
+Holiday é associado a 1 Date
+
 ### Rotas
 
 ## Tecnologias
