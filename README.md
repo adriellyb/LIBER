@@ -36,6 +36,10 @@ Holiday é associado a 1 Date</p>
 
 ### Rotas
 
+Na API, cada entidade possui suas rotas seguindo o conceito e as regras da API Rest, por conta disto, possuem uma hierarquia entre si. Para criar-se uma data é necessário o registro do usuário e, consequentemente, o login do mesmo que irá gerar um token de autenticação dando acesso as rotas das entidades Date e Holiday.
+
+Para testar as rotas, a URL utilizada é ``sh localhost:http://localhost:8000/api/ ``. Caso haja dúvidas, no arquivo ``sh routes\api.php`` estão todas desta aplicação.
+
 ## Tecnologias
 
 ## Instalação
