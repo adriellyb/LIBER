@@ -1,0 +1,51 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+ion-content.background {
+    --background: url('../../assets/PurpleBG.png') 0 0/100% 100% no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: total 3s normal linear;
+}
+
+.logo{
+    max-width: 180px;
+    margin-top: 25%;
+    position: relative;
+    animation: logo 3s normal linear;
+  }
+  
+  @keyframes total {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+.name-app, .slogan {
+    color: #FFF;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.slogan {
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+
+.login-button, .register-button {
+    margin-top: 10%;
+    color: #FFF;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+}

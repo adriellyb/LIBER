@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class Book extends Model
 {
     public function createBook(Request $request){
+        $this->image = $request->image;
         $this->title = $request->title;
         $this->writer = $request->writer;
         $this->publisher = $request->publisher;
@@ -17,31 +18,8 @@ class Book extends Model
         $this->save();
     }
 
-    /*public function updateBook(Request $request, $id){
+    public function comments(){
+        return $this->hasMany('App\Comment');
+    }
 
-        if ($request->title){
-            $this->title = $request->title;
-        }
-
-        if ($request->writer){
-            $this->writer = $request->writer;
-        }
-
-        if ($request->publisher){
-            $this->publisher = $request->publisher;
-        }
-
-        if ($request->edition){
-            $this->edition = $request->edition;
-        }
-
-        if ($request->resume){
-            $this->resume = $request->resume;
-        }
-
-        if ($request->category){
-            $this->category = $request->category;
-        }
-        $this->save();
-    }*/
 }

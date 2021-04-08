@@ -17,14 +17,11 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('password');
-            $table->string('cpf');
+            $table->bcrypt('password'); //encriptando a senha
+            $table->string('cpf')->unique();
+            $table->string('birth');
             $table->string('phone');
-            $table->string('address');
-            $table->integer('number');
-            $table->string('complement');
-            $table->string('district');
-            $table->string('city');
+            $table->longText('image')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
             $table->timestamps();

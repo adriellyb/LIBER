@@ -9,6 +9,7 @@ class BookController extends Controller
 {
     public function create(Request $request){
         $book = new Book;
+        $book->image = $request->image;
         $book->title = $request->title;
         $book->writer = $request->writer;
         $book->publisher = $request->publisher;
@@ -34,6 +35,10 @@ class BookController extends Controller
     /** Funcao atualizar dados */
     public function update(Request $request, $id){
         $book = Book::find($id);
+
+        if ($request->image) {
+            $book->image = $request->image;
+        }
 
         if ($request->title) {
             $book->title = $request->title;
